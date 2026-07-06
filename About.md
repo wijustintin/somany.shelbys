@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta 
+       name="viewport" 
+       content="width=device-width, initial-scale=1">
+    <title>So Many Shelbys</title> 
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+<body>
+  <h1> somanyshelbys </h1>
+  <h2>Made with rigidity and free-flowing fluidity</h2>
+      <nav class= "navbar">
+      <ul class="nav-links">
+        <li><a href="Chez-moi.html">Chez-moi</a></li>
+        <li><a href="cool arts.html">Cool arts</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+    <video
+    src="20260522_010147000_iOS.MP4"
+    autoplay
+    muted
+    loop
+    playsinline
+    width="560" 
+ ></video>
+ <!--omitted controls in video el above to remove play and volume buttons-->
+   <style>
+   video {    
+    width: 100%;
+    max-width: 800px;     /* Limit maximum size */
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: block;
+    margin: 20px auto;    /* Center horizontally */
+   }
+   </style>
+    <h4> NYC Visual Artist and Photographer <h4>
+    <p> Contact me: <a href="justin@somanyshelbys.com">justin@somanyshelbys.com</a> For more of my works: IG <a href="https://www.instagram.com/somanyshelbys/"> @somanyshelbys </p> <!--make email-->
+    <style>
+     h4 {
+    position: absolute;
+    top: 165.5%;
+    left: 28%;
+    transform: translate (-165.5%, -28%);
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    display: block;
+    margin: 20px auto;
+     }
+     p {
+    position: absolute;
+    top: 166%;
+    left: 50%;
+    transform: translate (159%, 50%); /* Does not work for shit, h4 controls format for both it and p for some reason */
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    opacity: 0.78;
+    color: black;
+    display: block;
+    margin: 60px auto;
+     }
+    </style>
+  
