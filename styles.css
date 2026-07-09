@@ -281,25 +281,6 @@ a:hover+div {
     color: #ff3992
 }
 
-video {
-    width: 100%;
-    max-width: 800px;     /* Limit maximum size */
-    border: none;
-    border-radius: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    display: block;
-    margin: 20px auto;    /* Center horizontally */
-}
-img {
-    width: 100%;
-    max-width: 1000px;     /* Limit maximum size */
-    border: 5px solid #333;
-    border-radius: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    display: block;
-    margin: 20px auto;    /* Center horizontally */
-}
-
 h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
